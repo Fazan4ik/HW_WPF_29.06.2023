@@ -17,7 +17,6 @@ namespace HW_WPF_29._06._2023
 {
     public partial class MainWindow : Window
     {
-        // Команды
         public ICommand BoldCommand { get; set; }
         public ICommand ItalicCommand { get; set; }
         public ICommand UnderlineCommand { get; set; }
@@ -32,7 +31,6 @@ namespace HW_WPF_29._06._2023
         {
             InitializeComponent();
 
-            // Инициализация команд
             BoldCommand = new RelayCommand(BoldExecuted);
             ItalicCommand = new RelayCommand(ItalicExecuted);
             UnderlineCommand = new RelayCommand(UnderlineExecuted);
@@ -42,12 +40,8 @@ namespace HW_WPF_29._06._2023
             RedColorCommand = new RelayCommand(RedColorExecuted);
             GreenColorCommand = new RelayCommand(GreenColorExecuted);
             BlueColorCommand = new RelayCommand(BlueColorExecuted);
-
-            // Установка контекста данных
             DataContext = this;
         }
-
-        // Методы выполнения команд
 
         private void BoldExecuted()
         {
