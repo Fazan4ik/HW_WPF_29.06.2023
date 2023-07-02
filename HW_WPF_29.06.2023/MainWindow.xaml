@@ -24,17 +24,17 @@
         </Grid.RowDefinitions>
         <Menu Grid.Row="0">
             <MenuItem Header="Format" Height="75" Width="130" FontSize="25">
-                <MenuItem Header="Bold" Command="{Binding BoldCommand}" InputGestureText="Ctrl+1" />
-                <MenuItem Header="Italic" Command="{Binding ItalicCommand}" InputGestureText="Ctrl+2" />
-                <MenuItem Header="Underline" Command="{Binding UnderlineCommand}" InputGestureText="Ctrl+3" />
-                <MenuItem Header="Clear Formatting" Command="{Binding ClearCommand}" InputGestureText="Ctrl+4" />
-                <MenuItem Header="Font Size 15" Command="{Binding Font15Command}" InputGestureText="Ctrl+5" />
-                <MenuItem Header="Font Size 30" Command="{Binding Font30Command}" InputGestureText="Ctrl+6" />
-                <MenuItem Header="Red Color" Command="{Binding RedColorCommand}" InputGestureText="Ctrl+7" />
-                <MenuItem Header="Green Color" Command="{Binding GreenColorCommand}" InputGestureText="Ctrl+8" />
-                <MenuItem Header="Blue Color" Command="{Binding BlueColorCommand}" InputGestureText="Ctrl+9" />
+                <MenuItem Header="Bold" Command="{Binding BoldCommand}" InputGestureText="Ctrl+N1" />
+                <MenuItem Header="Italic" Command="{Binding ItalicCommand}" InputGestureText="Ctrl+N2" />
+                <MenuItem Header="Underline" Command="{Binding UnderlineCommand}" InputGestureText="Ctrl+N3" />
+                <MenuItem Header="Clear Formatting" Command="{Binding ClearCommand}" InputGestureText="Ctrl+N4" />
+                <MenuItem Header="Font Size 15" Command="{Binding Font15Command}" InputGestureText="Ctrl+N5" />
+                <MenuItem Header="Font Size 30" Command="{Binding Font30Command}" InputGestureText="Ctrl+N6" />
+                <MenuItem Header="Red Color" Command="{Binding RedColorCommand}" InputGestureText="Ctrl+N7" />
+                <MenuItem Header="Green Color" Command="{Binding GreenColorCommand}" InputGestureText="Ctrl+N8" />
+                <MenuItem Header="Blue Color" Command="{Binding BlueColorCommand}" InputGestureText="Ctrl+N9" />
             </MenuItem>
         </Menu>
-        <RichTextBox x:Name="MyRichTextBox" Background="Yellow" Height="200" Margin="227,117,227,117" FontSize="30" />
+        <RichTextBox x:Name="MyRichTextBox" Background="Yellow" Height="200" Margin="421,117,33,117" FontSize="30" />
     </Grid>
 </Window>
